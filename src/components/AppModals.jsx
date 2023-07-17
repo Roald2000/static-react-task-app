@@ -53,8 +53,6 @@ export function AppModal({ modalType = 'message', title = "Modal", id, className
                     {children}
                 </div>
             </dialog>
-        default:
-            break;
     }
 
 }
